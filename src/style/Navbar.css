@@ -24,6 +24,10 @@
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1.5px;
+
+    @media screen and (min-width: 2500px) {
+        font-size: 26px;
+    }
 }
 
 .hideNav {

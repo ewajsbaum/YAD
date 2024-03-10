@@ -44,6 +44,11 @@
     flex-direction: column;
     align-items: flex-end;
 
+    @media screen and (min-width: 2500px) {
+        margin-top: 200px;
+        width: 40%;
+    }
+
     @media screen and (max-width: 800px) {
         text-align: center;
         width: 100%;
@@ -54,6 +59,10 @@
 .heroText>h1 {
     font-size: 60px;
     font-weight: 700;
+
+    @media screen and (min-width: 2500px) {
+        font-size: 80px;
+    }
 
     @media screen and (max-width: 600px) {
         font-size: 40px;
@@ -115,6 +124,11 @@
     font-size: 24px;
     text-align: center;
 
+    @media screen and (min-width: 2500px) {
+        padding: 150px 500px;
+        font-size: 30px
+    }
+
     @media screen and (max-width: 600px) {
         padding: 0px 10px 50px 10px;
         font-size: 16px;
@@ -125,6 +139,10 @@
     margin-bottom: 20px;
     font-size: 12px;
 
+    @media screen and (min-width: 2500px) {
+        font-size: 16px;
+    }
+
     @media screen and (max-width: 600px) {
         font-size: 14px;
     }
@@ -134,6 +152,10 @@
     position: relative;
     width: 100%;
     height: 950px;
+
+    @media screen and (min-width: 2500px) {
+        height: 1800px;
+    }
 
     @media screen and (max-width: 600px) {
         height: 320px;
@@ -147,6 +169,10 @@
     background-size: cover;
     width: 100%;
     height: 850px;
+
+    @media screen and (min-width: 2500px) {
+        height: 1800px;
+    }
 
     @media screen and (max-width: 600px) {
         height: 300px;
@@ -164,6 +190,11 @@
     background-color: #F3F3F3;
     color: #355E3B;
 
+    @media screen and (min-width: 2500px) {
+        font-size: 30px;
+        padding: 150px 0px;
+    }
+
     @media screen and (max-width: 600px) {
         padding: 20px 45px;
         font-size: 16px;
@@ -174,6 +205,10 @@
 .advantageSection>h5 {
     margin-bottom: 20px;
     font-size: 14px;
+
+    @media screen and (min-width: 2500px) {
+        font-size: 18px;
+    }
 }
 
 .advantageWindows {
@@ -196,11 +231,20 @@
     min-height: 215px;
     text-align: center;
     border: 1px solid #355E3B;
+
+    @media screen and (min-width: 2500px) {
+        width: 350px;
+        min-height: 260px;
+    }
 }
 
 .advantageWindow>h4 {
     padding: 10px 0px;
     font-size: 21px;
+
+    @media screen and (min-width: 2500px) {
+        font-size: 27px;
+    }
 }
 
 .advantageWindow>img {
@@ -209,6 +253,10 @@
 
 .advantageWindow>div {
     font-family: "Play", sans-serif;
+
+    @media screen and (min-width: 2500px) {
+        font-size: 22px;
+    }
 }
 
 .linkToAboutContainer {
@@ -230,6 +278,11 @@
     border-radius: 0px 8px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
+
+    @media screen and (min-width: 2500px) {
+        width: 250px;
+    }
+
     @media screen and (max-width: 600px) {
         margin-right: 0px;
     }
@@ -239,6 +292,10 @@
     font-size: 20px;
     color: #ffffff;
     text-decoration: none;
+
+    @media screen and (min-width: 2500px) {
+        font-size: 26px;
+    }
 }
 
 .linkToAbout:hover {
@@ -272,12 +329,24 @@
     background-color: #cfcfcf;
     color: #a14329;
 
+    @media screen and (min-width: 2500px) {
+        font-size: 18px;
+    }
+
+    @media screen and (min-width: 2500px) {
+        font-size: 18px;
+    }
+
 }
 
 .featuredProperty {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 400px;
     background-color: hsl(33, 16%, 73%);
+
+    @media screen and (min-width: 2500px) {
+        width: 700px;
+    }
 
     @media screen and (max-width: 600px) {
         width: 300px
@@ -293,6 +362,10 @@
     font-size: 20px;
     padding: 20px 0px;
     color: #355E3B;
+
+    @media screen and (min-width: 2500px) {
+        font-size: 25px;
+    }
 }
 
 .testimonials {
@@ -300,6 +373,11 @@
     height: 1400px;
     margin-top: 100px;
     justify-content: center;
+
+
+    @media screen and (min-width: 2500px) {
+        height: 1900px;
+    }
 
     @media screen and (max-width: 800px) {
         flex-direction: column;
@@ -343,6 +421,10 @@
     font-size: 24px;
     text-align: center;
 
+    @media screen and (min-width: 2500px) {
+        font-size: 30px;
+    }
+
     @media screen and (max-width: 800px) {
         margin: 0px;
         font-size: 16px;
@@ -352,6 +434,10 @@
 .testimonialTitle>h5 {
     margin-bottom: 20px;
     font-size: 14px;
+
+    @media screen and (min-width: 2500px) {
+        font-size: 18px;
+    }
 }
 
 .testimonialText {
@@ -375,6 +461,10 @@
 .testimonialCatchphrase {
     font-size: 26px;
 
+    @media screen and (min-width: 2500px) {
+        font-size: 30px;
+    }
+
     @media screen and (max-width: 600px) {
         font-size: 20px;
     }
@@ -384,6 +474,11 @@
     font-size: 20px;
     margin-top: 25px;
     font-family: "Play", sans-serif;
+    max-width: 1300px;
+
+    @media screen and (min-width: 2500px) {
+        font-size: 25px;
+    }
 
     @media screen and (max-width: 600px) {
         font-size: 14px;
@@ -397,6 +492,10 @@
     font-style: italic;
     text-align: center;
 
+    @media screen and (min-width: 2500px) {
+        font-size: 25px;
+    }
+
     @media screen and (max-width: 600px) {
         font-size: 14px;
     }
@@ -408,6 +507,11 @@
     font-size: 80px;
     bottom: 300px;
     right: 150px;
+
+    @media screen and (min-width: 2500px) {
+        bottom: 200px;
+        right: 400px;
+    }
 
     @media screen and (max-width: 800px) {
         position: relative;

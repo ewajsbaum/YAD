@@ -31,8 +31,8 @@ export function Home() {
       <div className="hero">
         <div className="overlay">
           <div className="heroText">
-            <h1><span className="styledHeroText">40+</span> years <br /> of tenant-driven management</h1>
-            <h4>Exceptional service. Efficient operations. Personalized approach. </h4>
+            <h1><span className="styledHeroText">40+</span> years <br /> of tenant-driven <br /> management</h1>
+            <h4>Exceptional service. Efficient operations. <br /> Personalized approach. </h4>
             <div className="linkToProperties"><Link to="/properties">View properties →</Link></div>
           </div>
         </div>
