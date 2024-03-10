@@ -34,12 +34,17 @@
     top: 0;
     left: 0;
     position: fixed;
+
+    @media screen and (max-width: 600px) {
+        background: linear-gradient(0deg, rgba(243, 243, 243, 1) 38%, rgba(243, 243, 243, 0.4992121848739496) 81%, rgba(243, 243, 243, 0) 89%);
+    }
+
 }
 
 .heroText {
     color: #355E3B;
     text-align: right;
-    width: 43%;
+    width: 41%;
     margin-top: 120px;
     display: flex;
     flex-direction: column;
@@ -53,7 +58,7 @@
 }
 
 .heroText>h1 {
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 400;
 
     @media screen and (min-width: 1800px) {
@@ -68,6 +73,10 @@
 .heroText>h4 {
     margin-top: 20px;
     font-size: 24px;
+
+    @media screen and (max-width: 600px) {
+        font-size: 20px;
+    }
 }
 
 .styledHeroText {
@@ -87,6 +96,7 @@
 
     @media screen and (max-width: 600px) {
         width: 200px;
+        font-size: 20px;
     }
 }
 
