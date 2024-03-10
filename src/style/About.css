@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+.about-hero-image {
+    height: 40vh;
+    width: 100%;
+    background-image: url('../images/about.jpg');
+    background-size: cover;
+
+    @media screen and (max-width: 600px) {
+        height: 100px;
+    }
+}
+
+.about-hero-text {
+    color: #355E3B;
+    text-align: right;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: right;
+    font-size: 20px;
+    line-height: 40px;
+
+    @media screen and (max-width: 900px) {
+        margin: 100px 50px;
+    }
+
+    @media screen and (max-width: 600px) {
+        font-size: 16px;
+        margin: 50px 20px;
+    }
+}
+
+.about-hero-text>h2 {
+    width: 50%;
+
+    @media screen and (max-width: 600px) {
+        width: 100%
+    }
+}
+
+.about-hero-text>h3 {
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: "Allura", cursive;
+
+    @media screen and (max-width: 600px) {
+        font-size: 30px;
+    }
+}
+
+.about-hero-text>h6 {
+    font-style: italic;
+}
+
+.coloredText {
+    color: #a14329;
+    font-weight: 700;
+}
+
+.ourRoots {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #355E3B;
+    color: #f3f3f3;
+    padding: 130px;
+
+    @media screen and (max-width: 900px) {
+        padding: 50px;
+    }
+
+    @media screen and (max-width: 600px) {
+        padding: 50px 20px;
+    }
+}
+
+.ourRoots>h1 {
+    font-size: 60px;
+    margin-bottom: 45px;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+
+    @media screen and (max-width: 600px) {
+        font-size: 40px;
+    }
+}
+
+.ourRoots>h2 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 38px;
+
+    @media screen and (max-width: 600px) {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
+#ourRootsBoldText {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 130px;
+
+    @media screen and (max-width: 600px) {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+}
+
+.rootSections {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.rootSectionEven {
+    text-align: left;
+    margin-right: 40%;
+    border-bottom: 1px solid #F3F3F3;
+    border-right: 1px solid #F3F3F3;
+
+    @media screen and (max-width: 600px) {
+        margin: 0px;
+    }
+}
+
+.rootSectionOdd {
+    text-align: right;
+    margin-left: 40%;
+
+    @media screen and (max-width: 600px) {
+        margin: 0px;
+    }
+}
+
+.rootSectionEven>h3 {
+    color: #cfcfcf;
+    font-family: "Play", sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: left;
+}
+
+.rootSectionOdd>h3 {
+    color: #cfcfcf;
+    font-family: "Play", sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: right;
+}
+
+.rootSectionEven>h3>span {
+    font-family: "Kaushan Script";
+}
+
+.rootSectionOdd>h3>span {
+    font-family: "Kaushan Script";
+}
+
+.rootSectionSubtitle {
+    font-family: "Play", sans-serif;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.rootSectionOdd>.rootSectionBody {
+    font-size: 18px;
+    padding: 25px 0px 50px 50px;
+    border-bottom: 1px solid #F3F3F3;
+    border-left: 1px solid #F3F3F3;
+}
+
+.rootSectionEven>.rootSectionBody {
+    font-size: 18px;
+    padding: 25px 50px 50px 0px;
+}
+
+.thimble {
+    background-color: #F3F3F3;
+    height: 650px;
+    display: flex;
+    padding: 150px 50px;
+
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+        padding: 0px;
+        height: auto;
+    }
+}
+
+.thimbleImg {
+    width: 600px;
+    height: 650px;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0 0 20px hsl(33, 16%, 73%);
+
+    @media screen and (max-width: 900px) {
+        width: 300px;
+        height: 325px;
+    }
+
+    @media screen and (max-width: 600px) {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.thimbleText {
+    background-color: #a14329;
+    width: 790px;
+    height: fit-content;
+    margin-top: 125px;
+    margin-left: -25px;
+    box-shadow: 0px -25px 20px -20px hsl(33, 16%, 73%), 0px 25px 20px -20px hsl(33, 16%, 73%);
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+    padding: 40px;
+    line-height: 65px;
+
+    @media screen and (max-width: 900px) {
+        font-size: 28px;
+    }
+
+    @media screen and (max-width: 600px) {
+        margin: 0px;
+        width: 100%;
+        height: auto;
+        font-size: 28px;
+        box-sizing: border-box;
+    }
+}
+
+.thimbleParagraph {
+    line-height: 40px;
+    margin-top: 60px;
+    font-size: 25px;
+    font-family: "Play", sans-serif;
+}
+
+.missionTitle {
+    font-size: 25px;
+    text-align: center;
+    background-color: #F3F3F3;
+    color: #2d6e53;
+    padding-top: 50px;
+}
+
+.mission {
+    padding: 20px 80px 80px 80px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 900px) {
+        padding: 20px;
+    }
+}
+
+.missionGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    gap: 10px;
+    color: #F3F3F3;
+
+    @media screen and (max-width: 600px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.missionGrid>div {
+    padding: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 35px;
+}
+
+.missionGrid>:first-child {
+    background-color: #355E3B;
+}
+
+.missionGrid>:nth-child(2) {
+    background-color: #3f8a81;
+}
+
+.missionGrid>:nth-child(3) {
+    background-color: #2d6e53;
+}
+
+.missionGrid>:nth-child(4) {
+    background-color: #3b8c4a;
+}
+
+.circleDesign {
+    height: 60px;
+    width: 60px;
+    background-color: #F3F3F3;
+    position: absolute;
+    border-radius: 50%;
+
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
+}
