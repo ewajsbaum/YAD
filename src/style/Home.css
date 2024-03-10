@@ -26,19 +26,20 @@
 
 .overlay {
     background: rgb(243, 243, 243);
-    background: linear-gradient(0deg, rgba(243, 243, 243, 1) 0%, rgba(243, 243, 243, 0) 100%);
+    background: linear-gradient(90deg, rgba(243, 243, 243, 1) 43%, rgba(243, 243, 243, 0.4992121848739496) 50%, rgba(243, 243, 243, 0) 58%);
     position: absolute;
     width: 100%;
     height: 100vh;
     max-height: 800px;
     top: 0;
     left: 0;
+    position: fixed;
 }
 
 .heroText {
     color: #355E3B;
     text-align: right;
-    width: 50%;
+    width: 43%;
     margin-top: 120px;
     display: flex;
     flex-direction: column;
@@ -53,7 +54,7 @@
 
 .heroText>h1 {
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 400;
 
     @media screen and (min-width: 1800px) {
         font-size: 80px;
@@ -72,7 +73,7 @@
 .styledHeroText {
     font-family: "Kaushan Script";
     font-weight: 400;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .linkToProperties {
@@ -148,7 +149,7 @@
     height: 950px;
 
     @media screen and (min-width: 1800px) {
-        height: 1800px;
+        height: 1000px;
     }
 
     @media screen and (max-width: 600px) {
@@ -161,11 +162,12 @@
     background-image: url('../images/meeting_table.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
     width: 100%;
     height: 850px;
 
     @media screen and (min-width: 1800px) {
-        height: 1800px;
+        height: 1000px;
     }
 
     @media screen and (max-width: 600px) {
