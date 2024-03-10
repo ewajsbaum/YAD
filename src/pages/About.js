@@ -1,8 +1,15 @@
+import { useEffect } from 'react'
 import { roots } from '../data/roots'
 import '../style/About.css'
 import thimbleImage from '../images/thimble.jpg'
 
 export function About() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
+
+
   return (
     <div>
       <div className="about-hero-image" />

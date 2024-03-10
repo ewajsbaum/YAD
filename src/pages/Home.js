@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import '../style/Home.css'
 import { advantages } from '../data/yad_advantage'
@@ -24,6 +24,10 @@ export function Home() {
       setAnimateTestimonial(false);
     }, 300);
   }
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
 
   return (
     <div>
