@@ -234,7 +234,7 @@
     padding: 150px 50px;
 
     @media screen and (min-width: 1800px) {
-        padding: 150px 400px;
+        padding: 150px 150px;
     }
 
     @media screen and (max-width: 600px) {
