@@ -35,7 +35,7 @@ export function Home() {
       <div className="hero">
         <div className="overlay">
           <div className="heroText">
-            <h1><span className="styledHeroText">40+</span> years <br /> of tenant-driven <br /> management</h1>
+            <h1>40<span className="styledHeroText">+</span> years of <br /> tenant-driven management</h1>
             <h4>Exceptional service. Efficient operations. <br /> Personalized approach. </h4>
             <div className="linkToProperties"><Link to="/properties">View properties →</Link></div>
           </div>
@@ -91,12 +91,12 @@ export function Home() {
             <h4 className="testimonialCatchphrase">"{testimonials[currentTestimonialIndex].catchphrase}"</h4>
             <div className="testimonialBody">"{testimonials[currentTestimonialIndex].body}"</div>
             <div className="testimonialClient">
-              {testimonials[currentTestimonialIndex].client_name}, {testimonials[currentTestimonialIndex].client_company}
+              <span>{testimonials[currentTestimonialIndex].client_name}</span>, <span><img src={testimonials[currentTestimonialIndex].client_company} alt="company logo" className="client-company" /></span>
             </div>
           </div>
           <div className="arrow" onClick={() => showNextTestimonial()}>→</div>
         </div>
-      </div>
-    </div >
+      </div >
+    </div>
   )
 }

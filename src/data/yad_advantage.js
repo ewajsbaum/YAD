@@ -6,9 +6,9 @@ import stars from '../images/icons/stars.png'
 
 export const advantages = [
     {
-        "title": "Institutional-level management",
-        "content": "Experienced leadership and well-defined processes keep our properties running smoothly. We’re proactive, prevent issues, and stay compliant with local regulation.",
-        "icon": management
+        "title": "Client-first focus",
+        "content": "There’s always someone to talk to. Tenants can expect flexibility, an accommodating approach, and fair and transparent fee structures.",
+        "icon": handshake
     },
     {
         "title": "Personal involvement",
@@ -21,9 +21,9 @@ export const advantages = [
         "icon": stars
     },
     {
-        "title": "Client-first focus",
-        "content": "There’s always someone to talk to. Tenants can expect flexibility, an accommodating approach, and fair and transparent fee structures.",
-        "icon": handshake
+        "title": "Institutional-level management",
+        "content": "Experienced leadership and well-defined processes keep our properties running smoothly. We’re proactive, prevent issues, and stay compliant with local regulation.",
+        "icon": management
     },
     {
         "title": "Distinctive properties",

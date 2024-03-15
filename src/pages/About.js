@@ -12,15 +12,22 @@ export function About() {
 
   return (
     <div>
-      <div className="about-hero-image" />
-      <div className="about-hero-text">
+      <div className="about-hero-image" >
+        <div className="about-hero-text">
+          <h2>“A generation after YAD was established, I’m proud of what the company
+            has grown to stand for:  distinctive <span className="coloredText">assets</span>, professional <span className="coloredText">service</span>, and most
+            importantly, long-standing <span className="coloredText">relationships</span> built on mutual <span className="coloredText">trust</span>.”</h2>
+          <h3>Marvin Rubner</h3>
+          <h6>Founder and President</h6>
+        </div>
+      </div>
+      <div className="about-hero-text-mobile">
         <h2>“A generation after YAD was established, I’m proud of what the company
           has grown to stand for:  distinctive <span className="coloredText">assets</span>, professional <span className="coloredText">service</span>, and most
           importantly, long-standing <span className="coloredText">relationships</span> built on mutual <span className="coloredText">trust</span>.”</h2>
-        <h3>Marvin Rubner,</h3>
+        <h3>Marvin Rubner</h3>
         <h6>Founder and President</h6>
       </div>
-
       <div className="ourRoots">
         <h1>Our roots go deep.</h1>
         <h2>For over 40 years, we’ve been managing properties across the GTA and beyond. </h2>
@@ -55,7 +62,7 @@ export function About() {
           <div>Embrace creative solutions that support our tenants and add value to our properties.</div>
         </div>
       </div>
-    </div>
+    </div >
 
   )
 }
