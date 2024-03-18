@@ -18,6 +18,7 @@
 
     @media screen and (max-width: 600px) {
         background-position: top;
+        height: 90vh;
     }
 }
 
@@ -28,57 +29,56 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media screen and (max-width: 600px) {
+        height: 90vh;
+    }
 }
 
 .overlay {
-    background: rgb(243, 243, 243);
-    background: linear-gradient(103deg, rgba(243, 243, 243, 1) 36%, rgba(243, 243, 243, 0.7961309523809523) 40%, rgba(243, 243, 243, 0.4992121848739496) 43%, rgba(243, 243, 243, 0) 45%);
+    background-color: #020121;
+    opacity: 65%;
     width: 100%;
     height: 100vh;
     max-height: 1100px;
     top: 0;
     left: 0;
-    position: fixed;
 
     @media screen and (max-width: 600px) {
-        background: linear-gradient(163deg, rgba(243, 243, 243, 1) 41%, rgba(243, 243, 243, 0.7961309523809523) 56%, rgba(243, 243, 243, 0.4992121848739496) 60%, rgba(243, 243, 243, 0) 65%);
+        height: 90vh;
     }
 
 }
 
 .heroText {
-    color: #040145;
-    text-align: right;
-    width: 35%;
-    margin-top: 150px;
+    color: #FFFFFF;
+    text-align: left;
+    width: 50%;
+    margin-top: 220px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    margin-left: 200px;
 
     @media screen and (min-width: 1700px) {
-        margin-top: 230px;
-        width: 38%;
+        margin-top: 280px;
     }
-
 
     @media screen and (min-width: 2000px) {
-        width: 30%;
+        margin-left: 300px;
     }
 
-    @media screen and (max-width: 600px) {
-        text-align: left;
-        padding-left: 30px;
+    @media screen and (max-width: 900px) {
+        margin-left: 30px;
         width: 80%;
-        align-items: flex-start;
     }
 }
 
 .heroText>h1 {
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 400;
 
     @media screen and (min-width: 1700px) {
-        font-size: 44px;
+        font-size: 55px;
     }
 
     @media screen and (max-width: 600px) {
@@ -88,7 +88,7 @@
 
 .heroText>h4 {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 300;
 
     @media screen and (min-width: 1700px) {
@@ -108,12 +108,13 @@
 }
 
 .linkToProperties {
-    border: 2px solid #040145;
+    border: 2px solid #FFFFFF;
     padding: 10px 35px;
     display: flex;
     justify-content: center;
     border-radius: 0px 8px;
     margin-top: 40px;
+    max-width: fit-content;
 
     @media screen and (min-width: 1700px) {
         margin-top: 70px;
@@ -127,7 +128,7 @@
 .linkToProperties>* {
     font-size: 18px;
     font-weight: 300;
-    color: #040145;
+    color: #FFFFFF;
     text-decoration: none;
 
     @media screen and (min-width: 1600px) {
@@ -140,10 +141,10 @@
 }
 
 .linkToProperties:hover {
-    background-color: #040145;
+    background-color: #FFFFFF;
 
     >* {
-        color: #FFFFFF;
+        color: #020121;
     }
 }
 
