@@ -51,25 +51,16 @@
 }
 
 .heroText {
-    color: #FFFFFF;
-    text-align: left;
-    width: 50%;
+    color: #F3F3F3;
+    text-align: center;
+    width: 100%;
     margin-top: 220px;
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
+    align-items: center;
 
     @media screen and (min-width: 1700px) {
-        margin-top: 280px;
-    }
-
-    @media screen and (min-width: 2000px) {
-        margin-left: 300px;
-    }
-
-    @media screen and (max-width: 900px) {
-        margin-left: 30px;
-        width: 80%;
+        margin-top: 340px;
     }
 }
 
@@ -92,7 +83,6 @@
     font-weight: 300;
 
     @media screen and (min-width: 1700px) {
-        margin-top: 50px;
         font-size: 27px;
     }
 
@@ -108,16 +98,17 @@
 }
 
 .linkToProperties {
-    border: 2px solid #FFFFFF;
+    border: 2px solid #F3F3F3;
     padding: 10px 35px;
     display: flex;
     justify-content: center;
     border-radius: 0px 8px;
-    margin-top: 40px;
+    margin-top: 80px;
     max-width: fit-content;
+    font-size: 15px;
 
     @media screen and (min-width: 1700px) {
-        margin-top: 70px;
+        margin-top: 100px;
     }
 
     @media screen and (max-width: 600px) {
@@ -126,14 +117,10 @@
 }
 
 .linkToProperties>* {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
-    color: #FFFFFF;
+    color: #F3F3F3;
     text-decoration: none;
-
-    @media screen and (min-width: 1600px) {
-        font-size: 25px;
-    }
 
     @media screen and (max-width: 600px) {
         font-size: 20px;
@@ -141,7 +128,7 @@
 }
 
 .linkToProperties:hover {
-    background-color: #FFFFFF;
+    background-color: #F3F3F3;
 
     >* {
         color: #020121;
