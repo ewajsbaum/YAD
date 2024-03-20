@@ -35,7 +35,7 @@ export function Home() {
       <div className="hero">
         <div className="overlay">
           <div className="heroText">
-            <h1>40<span className="styledHeroText">+</span> years of tenant-driven management</h1>
+            <h1>40<span className="styledHeroText">+</span> years of <br /> tenant-driven management</h1>
             <h4>Exceptional service. Efficient operations. Personalized approach. </h4>
             <div className="linkToProperties"><Link to="/properties">View properties →</Link></div>
           </div>
@@ -97,6 +97,6 @@ export function Home() {
           <div className="arrow" onClick={() => showNextTestimonial()}>→</div>
         </div>
       </div >
-    </div>
+    </div >
   )
 }

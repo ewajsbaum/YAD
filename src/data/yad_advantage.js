@@ -12,7 +12,7 @@ export const advantages = [
     },
     {
         "title": "Personal involvement",
-        "content": "No bureaucracy, no go-betweens. We’re a small, accessible team, all located under one roof. Get to a decision maker in one phone call — we’re here to work with you.",
+        "content": "We’re a small, accessible team, all located under one roof. Get to a decision maker in one phone call — we’re here to work with you.",
         "icon": communication
     },
     {
