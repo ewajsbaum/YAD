@@ -196,7 +196,7 @@
 
 .rootSectionEven>h3 {
     color: #cfcfcf;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 45px;
     text-align: left;
 
@@ -207,7 +207,7 @@
 
 .rootSectionOdd>h3 {
     color: #cfcfcf;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 45px;
     text-align: right;
 
@@ -217,11 +217,11 @@
 }
 
 .rootSectionEven>h3>span {
-    font-style: italic;
+    font-weight: 700;
 }
 
 .rootSectionOdd>h3>span {
-    font-style: italic;
+    font-weight: 700;
 }
 
 .rootSectionSubtitle {

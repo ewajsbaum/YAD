@@ -47,7 +47,7 @@ export function Navbar() {
     return (
         <div className="navContainer">
             <div className={hideNav ? "navbar hideNav" : "navbar"}>
-                <img src={logo} alt="yad" className="navlogo" />
+                <Link to="/" className="navLogoLink"><img src={logo} alt="yad" className="navlogo" /></Link>
                 <div className="navlinks">
                     <Link to="/">Home</Link>
                     <Link to='/about'>About</Link>
@@ -64,7 +64,7 @@ export function Navbar() {
             </div>
             <Outlet />
             <div className="footer">
-                <img src={logo} alt="yad" className="navlogo footerImg" />
+                <Link to="/" className="navLogoLink"><img src={logo} alt="yad" className="navlogo footerImg" /></Link>
                 <div className="footer-links">
                     <Link to="/">Home</Link>
                     <Link to='/about'>About</Link>

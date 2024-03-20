@@ -18,7 +18,6 @@
 
     @media screen and (max-width: 600px) {
         background-position: top;
-        height: 90vh;
     }
 }
 
@@ -29,47 +28,57 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    @media screen and (max-width: 600px) {
-        height: 90vh;
-    }
 }
 
 .overlay {
-    background-color: #020121;
-    opacity: 65%;
+    background: rgb(243, 243, 243);
+    background: linear-gradient(103deg, rgba(243, 243, 243, 1) 36%, rgba(243, 243, 243, 0.7961309523809523) 40%, rgba(243, 243, 243, 0.4992121848739496) 43%, rgba(243, 243, 243, 0) 45%);
     width: 100%;
     height: 100vh;
     max-height: 1100px;
     top: 0;
     left: 0;
+    position: fixed;
 
     @media screen and (max-width: 600px) {
-        height: 90vh;
+        background: linear-gradient(163deg, rgba(243, 243, 243, 1) 41%, rgba(243, 243, 243, 0.7961309523809523) 56%, rgba(243, 243, 243, 0.4992121848739496) 60%, rgba(243, 243, 243, 0) 65%);
     }
 
 }
 
 .heroText {
-    color: #F3F3F3;
-    text-align: center;
-    width: 100%;
-    margin-top: 220px;
+    color: #040145;
+    text-align: right;
+    width: 35%;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 
     @media screen and (min-width: 1700px) {
-        margin-top: 340px;
+        margin-top: 230px;
+        width: 38%;
+    }
+
+
+    @media screen and (min-width: 2000px) {
+        width: 30%;
+    }
+
+    @media screen and (max-width: 600px) {
+        text-align: left;
+        padding-left: 30px;
+        width: 80%;
+        align-items: flex-start;
     }
 }
 
 .heroText>h1 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 400;
 
     @media screen and (min-width: 1700px) {
-        font-size: 55px;
+        font-size: 44px;
     }
 
     @media screen and (max-width: 600px) {
@@ -79,10 +88,11 @@
 
 .heroText>h4 {
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
 
     @media screen and (min-width: 1700px) {
+        margin-top: 50px;
         font-size: 27px;
     }
 
@@ -98,17 +108,15 @@
 }
 
 .linkToProperties {
-    border: 2px solid #F3F3F3;
+    border: 2px solid #040145;
     padding: 10px 35px;
     display: flex;
     justify-content: center;
     border-radius: 0px 8px;
-    margin-top: 80px;
-    max-width: fit-content;
-    font-size: 15px;
+    margin-top: 40px;
 
     @media screen and (min-width: 1700px) {
-        margin-top: 100px;
+        margin-top: 70px;
     }
 
     @media screen and (max-width: 600px) {
@@ -117,10 +125,14 @@
 }
 
 .linkToProperties>* {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
-    color: #F3F3F3;
+    color: #040145;
     text-decoration: none;
+
+    @media screen and (min-width: 1600px) {
+        font-size: 25px;
+    }
 
     @media screen and (max-width: 600px) {
         font-size: 20px;
@@ -128,10 +140,10 @@
 }
 
 .linkToProperties:hover {
-    background-color: #F3F3F3;
+    background-color: #040145;
 
     >* {
-        color: #020121;
+        color: #FFFFFF;
     }
 }
 

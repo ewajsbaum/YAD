@@ -5,7 +5,7 @@
 
 .navbar {
     background-color: #F3F3F3;
-    opacity: 80%;
+    opacity: 70%;
     height: 80px;
     width: 100%;
     position: fixed;
@@ -21,7 +21,7 @@
     }
 }
 
-.navlogo {
+.navLogoLink {
     height: 60%;
     margin-left: 50px;
 
@@ -29,6 +29,10 @@
         max-height: 70px;
         margin: 0;
     }
+}
+
+.navlogo {
+    max-height: 100%;
 }
 
 .navlinks {
