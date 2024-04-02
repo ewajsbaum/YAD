@@ -52,6 +52,7 @@ export function Navbar() {
                     <Link to="/">Home</Link>
                     <Link to='/about'>About</Link>
                     <Link to="/properties">Properties</Link>
+                    <Link to="https://commercialcafe.securecafe3.com/newtenantportal/content2/login/?companyId=3762">Tenant</Link>
                 </div>
             </div >
             <div className="mobileNavButton" onClick={() => toggleMobileNavMenu()}>
@@ -61,6 +62,8 @@ export function Navbar() {
                 <Link to="/">Home</Link>
                 <Link to='/about'>About</Link>
                 <Link to="/properties">Properties</Link>
+                <Link to="https://commercialcafe.securecafe3.com/newtenantportal/content2/login/?companyId=3762">Tenant Portal</Link>
+
             </div>
             <Outlet />
             <div className="footer">
@@ -69,11 +72,12 @@ export function Navbar() {
                     <Link to="/">Home</Link>
                     <Link to='/about'>About</Link>
                     <Link to="/properties">Properties</Link>
+                    <Link to="https://commercialcafe.securecafe3.com/newtenantportal/content2/login/?companyId=3762">Tenant Portal</Link>
                 </div>
                 <div className="contact">
                     <div>T:  (416) 977 - 7781</div>
                     <div>F:  (416) 977 - 3451</div>
-                    <div>E:  info@yad.ca</div>
+                    <div>E:  office@yad.ca</div>
                     <div>197 Spadina Avenue, Suite 500 <br /> Toronto, Ontario M5T 2C8</div>
                 </div>
             </div >

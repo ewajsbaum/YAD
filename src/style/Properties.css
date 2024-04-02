@@ -1,0 +1,122 @@
+.propertiesHero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90vh;
+    width: 100%;
+    background-color: #040145;
+    color: #F3F3F3;
+
+    @media screen and (max-width: 600px) {
+        height: 70vh;
+    }
+}
+
+.propertiesHeroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+    margin: 80px;
+    font-size: 40px;
+    gap: 20px;
+
+    @media screen and (max-width: 600px) {
+        font-size: 30px;
+    }
+}
+
+.propertiesHeroTextBold {
+    font-weight: 600;
+}
+
+.propertiesHeroImage {
+    background-image: url('../images/properties.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 100%;
+    min-height: 40px;
+    width: 40%;
+    min-width: 40px;
+
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
+}
+
+.properties {
+    background-color: #F3F3F3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 170px;
+
+    @media screen and (min-width: 2000px) {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 200px 170px;
+    }
+
+    @media screen and (max-width: 1300px) {
+        padding: 100px 10px;
+    }
+
+    @media screen and (max-width: 900px) {
+        grid-template-columns: 1fr;
+        padding: 100px 0px;
+    }
+}
+
+.property {
+    width: 450px;
+    margin: auto;
+    height: 480px;
+    background-color: hsl(33, 16%, 73%);
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: 2000px) {
+        margin-bottom: 100px;
+        width: 510px;
+        height: 550px;
+    }
+
+    @media screen and (max-width: 600px) {
+        width: 350px;
+        height: 400px;
+    }
+}
+
+.property:hover {
+    background-color: #e8e5df;
+}
+
+.property>img {
+    width: 100%;
+    height: 300px;
+
+    @media screen and (max-width: 600px) {
+        height: 220px;
+    }
+}
+
+.propertyText {
+    display: flex;
+    flex-direction: column;
+    height: 28%;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    line-height: 33px;
+    color: #040145;
+}
+
+.propertyTextLink {
+    cursor: pointer;
+    color: #040145;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-family: "Montserrat", sans-serif;
+}

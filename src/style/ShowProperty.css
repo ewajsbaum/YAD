@@ -1,0 +1,187 @@
+.propertyShowing {
+    background-color: #F3F3F3;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    color: #040145;
+}
+
+.propertyType {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+.propertyTitle {
+    font-size: 45px;
+    padding: 20px;
+    text-align: center;
+
+    @media screen and (max-width: 600px) {
+        font-size: 30px;
+    }
+}
+
+.propertyCity {
+    font-size: 22px;
+}
+
+.propertyImage {
+    width: 80%;
+    margin: 70px;
+    border: 1px solid #040145;
+    padding: 20px;
+
+    @media screen and (max-width: 600px) {
+        width: 100%;
+        border: none;
+    }
+}
+
+.infoSlice {
+    background-color: #F3F3F3;
+    color: #040145;
+    display: flex;
+    padding: 120px 80px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #cfcfcf;
+    font-size: 20px;
+
+    @media screen and (max-width: 900px) {
+        flex-direction: column;
+        gap: 20px;
+        padding: 100px 10px;
+    }
+
+    @media screen and (min-width: 2000px) {
+        padding: 120px 240px;
+    }
+}
+
+.propertyDetails {
+    font-size: 30px;
+}
+
+.propertyGla {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.propertyGla>.address {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.propertyGla>div>span {
+    font-weight: 600;
+}
+
+.propertyHighlights {
+    gap: 50px;
+    line-height: 45px;
+}
+
+.propertyDescription {
+    gap: 70px;
+    line-height: 35px;
+
+    @media screen and (max-width: 900px) {
+        flex-direction: column-reverse;
+    }
+}
+
+.propertyDescription>div {
+    max-width: 1000px;
+}
+
+.secondaryImage {
+    width: 50%;
+    height: 500px;
+    max-height: max-content;
+    max-width: max-content;
+    border: 3px solid hsl(33, 16%, 73%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    @media screen and (max-width: 900px) {
+        width: 95%;
+        height: auto;
+    }
+
+    @media screen and (min-width: 2000px) {
+        height: 700px;
+    }
+}
+
+.propertyContact {
+    padding: 100px 200px;
+    font-size: 30px;
+    flex-direction: column;
+    justify-content: center;
+
+    @media screen and (max-width: 900px) {
+        padding: 100px 0px;
+    }
+
+    @media screen and (min-width: 1700px) {
+        padding: 100px 20px;
+    }
+}
+
+.propertyContact>div {
+    text-align: center;
+}
+
+.individualContact {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+    justify-content: space-around;
+
+    @media screen and (max-width: 900px) {
+        padding: 0px;
+    }
+}
+
+.individualContact>div {
+    font-size: 18px;
+    line-height: 35px;
+    padding: 70px;
+
+    @media screen and (max-width: 900px) {
+        padding: 40px;
+    }
+
+    @media screen and (min-width: 1700px) {
+        padding: 70px 60px;
+    }
+}
+
+.contactName {
+    font-weight: 600;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.propertyLocation {
+    gap: 50px;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.propertyMap {
+    width: 60%;
+    height: 500px;
+
+    @media screen and (max-width: 900px) {
+        width: 95%;
+        height: auto;
+    }
+}
+
+.secondMap {
+    @media screen and (max-width: 900px) {
+        flex-direction: column-reverse;
+    }
+}
