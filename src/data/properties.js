@@ -75,6 +75,7 @@ export const properties = [
                 "main": "416 777 2200"
             }
         ],
+        "brochure": "129Spadina.pdf",
         "address2": "Toronto, ON M5V 2L3",
         "map": "https://maps.google.com/maps?q=129+Spadina+Ave%2C+Toronto&t=&z=17&ie=UTF8&iwloc=&output=embed"
     },
@@ -122,6 +123,7 @@ export const properties = [
                 "main": "416 777 2200"
             }
         ],
+        "brochure": "345Adelaide.pdf",
         "address2": "Toronto, ON M5V 1R5",
         "map": "https://maps.google.com/maps?q=345+adelaide+&t=&z=17&ie=UTF8&iwloc=&output=embed"
     },
@@ -159,6 +161,7 @@ export const properties = [
                 "main": "416 673 4041"
             },
         ],
+        "brochure": "590King.pdf",
         "address2": "Toronto, ON M5V 1M3",
         "address2b": "Toronto, ON M5V 1T1",
         "map": "https://maps.google.com/maps?q=590+King+street+west%2C+toronto&t=&z=17&ie=UTF8&iwloc=&output=embed",
