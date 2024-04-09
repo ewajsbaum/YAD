@@ -5,7 +5,7 @@ import { properties } from '../data/properties'
 
 export function ShowProperty() {
     const { id } = useParams();
-    const property = properties.find(p => p.id === parseInt(id));
+    const property = properties.find(p => p.id === id);
 
     useEffect(() => {
         window.scrollTo(0, 0);

@@ -14,7 +14,7 @@ import kingHighlights from '../images/properties/590King/highlights.jpg'
 
 export const properties = [
     {
-        "id": 1,
+        "id": "197_spadina",
         "address1": "197 Spadina Avenue",
         "images": { "thumbnail": spadina197 },
         "type": "office, retail",
@@ -32,7 +32,7 @@ export const properties = [
         "map": "https://maps.google.com/maps?q=197+Spadina+Avenue%2C+To&t=&z=17&ie=UTF8&iwloc=&output=embed"
     },
     {
-        "id": 2,
+        "id": "129_spadina",
         "address1": "129 Spadina Avenue",
         "images": { "thumbnail": spadina129, "main": spadina129Main, "highlights": spadina129Highlights, "description": spadina129Description },
         "type": "office, retail",
@@ -80,7 +80,7 @@ export const properties = [
         "map": "https://maps.google.com/maps?q=129+Spadina+Ave%2C+Toronto&t=&z=17&ie=UTF8&iwloc=&output=embed"
     },
     {
-        "id": 3,
+        "id": "345_adelaide",
         "address1": "345 Adelaide Street W",
         "images": { "thumbnail": adelaide, "main": adelaideMain, "description": adelaideDecription, "highlights": adelaideHighlights },
         "type": "office, retail",
@@ -128,7 +128,7 @@ export const properties = [
         "map": "https://maps.google.com/maps?q=345+adelaide+&t=&z=17&ie=UTF8&iwloc=&output=embed"
     },
     {
-        "id": 4,
+        "id": "590_king_473_adelaide",
         "address1": "590 King Street W",
         "address1b": "473 Adelaide Street W",
         "images": { "thumbnail": king, "main": kingMain, "description": kingDescription, "highlights": kingHighlights },
@@ -168,7 +168,7 @@ export const properties = [
         "mapb": "https://maps.google.com/maps?q=473+adelaide+&t=&z=17&ie=UTF8&iwloc=&output=embed"
     },
     {
-        "id": 5,
+        "id": "deer_run_shopping_center",
         "title": "Deer Run Shopping Center",
         "address1": "4040 Creditview Road",
         "images": {},

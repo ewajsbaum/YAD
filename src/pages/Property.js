@@ -23,14 +23,14 @@ export function Property() {
                 {
                     properties &&
                     properties.map(p =>
-                        <div className="property">
+                        <Link to={`${p.id}`} className="property">
                             <img src={p.images?.thumbnail} alt="propertyImg" />
                             <div className="propertyText">
                                 <div>{p.address1}</div>
                                 {p.address1b && <div>{p.address1b}</div>}
                             </div>
                             <Link className="propertyTextLink" to={`${p.id}`}>VIEW PROPERTY →</Link>
-                        </div>
+                        </Link>
                     )
                 }
             </div>

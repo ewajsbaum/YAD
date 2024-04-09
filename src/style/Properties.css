@@ -7,6 +7,10 @@
     background-color: #040145;
     color: #F3F3F3;
 
+    @media screen and (min-width: 1800px) {
+        height: 70vh;
+    }
+
     @media screen and (max-width: 600px) {
         height: 70vh;
     }
@@ -76,6 +80,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-decoration: none;
 
     @media screen and (min-width: 2000px) {
         margin-bottom: 100px;
