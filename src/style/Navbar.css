@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 2;
+    z-index: 100;
     transition: 1s ease;
 
     @media screen and (max-width: 600px) {
