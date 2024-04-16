@@ -62,22 +62,28 @@
 }
 
 .propertiesHeroText {
-    rotate: -45deg;
-    transform: skew(-5deg, 0deg);
-    font-size: 25px;
-    letter-spacing: 2px;
-    translate: 0px 50px;
-    max-width: 100%;
+    position: absolute;
+    font-size: 23px;
+    padding: 0px 40px;
+    z-index: 5;
 
     @media screen and (min-width: 1800px) {
-        font-size: 33px;
-        translate: 50px 0px;
+        font-size: 27px;
     }
 
-    @media screen and (max-width: 1000px) {
-        rotate: 0deg;
-        transform: skew(0deg, 0deg);
-        translate: 0px 0px;
+    @media screen and (min-width: 2000px) {
+        font-size: 33px;
+        padding: 0px 70px;
+    }
+
+    @media screen and (max-width: 900px) {
+        translate: 0px -180px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 600px) {
+        translate: 0px -110px;
     }
 }
 

@@ -13,11 +13,10 @@ export function Property() {
     return (
         <div>
             <div className="propertiesHero">
-                <div className="propertiesHeroTextPanel">
-                    <div className="propertiesHeroText">
-                        <div>More than four walls. </div>
-                        <div className="propertiesHeroTextBold">A space that supports your growth.</div>
-                    </div>
+                <div className="propertiesHeroTextPanel" />
+                <div className="propertiesHeroText">
+                    <div>More than four walls. </div>
+                    <div className="propertiesHeroTextBold">A space that supports your growth.</div>
                 </div>
                 <div className="propertiesHeroSpacer" />
                 <div className="propertiesHeroImage" />

@@ -41,7 +41,8 @@
     position: fixed;
 
     @media screen and (max-width: 600px) {
-        background: linear-gradient(163deg, rgba(243, 243, 243, 1) 41%, rgba(243, 243, 243, 0.7961309523809523) 56%, rgba(243, 243, 243, 0.4992121848739496) 60%, rgba(243, 243, 243, 0) 65%);
+        background: rgb(243, 243, 243);
+        opacity: 80%;
     }
 
 }
@@ -69,7 +70,6 @@
 
     @media screen and (max-width: 600px) {
         text-align: left;
-        padding-left: 30px;
         width: 80%;
         align-items: flex-start;
     }
@@ -84,7 +84,8 @@
     }
 
     @media screen and (max-width: 600px) {
-        font-size: 40px;
+        font-size: 30px;
+        font-weight: bold;
     }
 }
 
