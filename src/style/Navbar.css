@@ -4,8 +4,7 @@
 }
 
 .navbar {
-    background-color: #F3F3F3;
-    opacity: 70%;
+    background-color: rgb(243, 243, 243, .7);
     height: 80px;
     width: 100%;
     position: fixed;

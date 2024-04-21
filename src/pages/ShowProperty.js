@@ -28,7 +28,7 @@ export function ShowProperty() {
                 <h1 className="propertyTitle">{property.title || property.address1}</h1>
                 {property.address1b && <h1 className="propertyTitle">{property.address1b}</h1>}
                 <h3 className="propertyCity">{property.city}</h3>
-                <img className="propertyImage" src={property.images.main} alt={property.address1} />
+                {property.images.main && <img className="propertyImage" src={property.images.main} alt={property.address1} />}
             </div>
             <div className="infoSlice propertyDetails">
                 <div>Property Details</div>
@@ -48,10 +48,10 @@ export function ShowProperty() {
             </div>
             <div className="infoSlice propertyHighlights">
                 <div>{property.highlights.map(h => <div>&#x2713;  {h}</div>)}</div>
-                <img src={property.images.highlights} alt="highlights" className="secondaryImage" />
+                {property.images.highlights && < img src={property.images.highlights} alt="highlights" className="secondaryImage" />}
             </div>
             <div className="infoSlice propertyDescription">
-                <img src={property.images.description} alt="description" className="secondaryImage" />
+                {property.images.description && < img src={property.images.description} alt="description" className="secondaryImage" />}
                 <div>{property.description}</div>
             </div>
             {property.contact &&
