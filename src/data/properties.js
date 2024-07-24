@@ -46,7 +46,29 @@ export const properties = [
         "highlights": [
             "High ceilings", "Brick and beam", "New elevators", "Operable windows", "A/C exclusive to each unit", "New electical", "Updated washrooms", "Attractive, updated lobby", "Security cameras and card access"
         ],
-        "contact": [
+        "availability": [
+            {
+                "unit": 101,
+                "area": 3682
+            },
+            {
+                "unit": 200,
+                "area": 9344
+            },
+            {
+                "unit": 300,
+                "area": 5555
+            },
+            {
+                "unit": 500,
+                "area": 9635
+            },
+            {
+                "unit": 600,
+                "area": 9635
+            },
+        ],
+        "xcontact": [
             {
                 "name": "Thomas Muha",
                 "email": "tom.muha@colliers.com",
@@ -94,7 +116,37 @@ export const properties = [
         "highlights": [
             "High ceilings", "Brick and beam", "Monthly parking available", "New elevators", "Operable windows", "A/C exclusive to each unit", "New electical", "Updated washrooms", "Attractive, updated lobby", "Security cameras and card access"
         ],
-        "contact": [
+        "availability": [
+            {
+                "unit": "001",
+                "area": 9000
+            },
+            {
+                "unit": 100,
+                "area": 9000
+            },
+            {
+                "unit": "200",
+                "area": 6000
+            },
+            {
+                "unit": "300",
+                "area": 6000
+            },
+            {
+                "unit": "400",
+                "area": 6000
+            },
+            {
+                "unit": "500",
+                "area": 6000
+            },
+            {
+                "unit": "600",
+                "area": 6000
+            },
+        ],
+        "xcontact": [
             {
                 "name": "Thomas Muha",
                 "email": "tom.muha@colliers.com",
@@ -125,7 +177,7 @@ export const properties = [
         ],
         "brochure": "345Adelaide.pdf",
         "address2": "Toronto, ON M5V 1R5",
-        "map": "https://maps.google.com/maps?q=345+adelaide+&t=&z=17&ie=UTF8&iwloc=&output=embed"
+        "map": "https://maps.google.com/maps?q=345+adelaide+Street+W&t=&z=17&ie=UTF8&iwloc=&output=embed"
     },
     {
         "id": "590_king_473_adelaide",
@@ -148,7 +200,24 @@ export const properties = [
         "highlights": [
             "High ceilings", "Brick and beam", "New elevators", "Operable windows", "New electical", "Attractive, updated lobby", "New A/C", "Security cameras and card access", "Updated washrooms", "Parking Available"
         ],
-        "contact": [
+        "availability": [
+            {
+                "address": "590 King",
+                "unit": 100,
+                "area": 8280
+            },
+            {
+                "address": "590 King",
+                "unit": 301,
+                "area": 8577
+            },
+            {
+                "address": "590 King",
+                "unit": 401,
+                "area": 10290
+            }
+        ],
+        "xcontact": [
             {
                 "name": "Mike Brouwer",
                 "email": "mike.brouwer@avisonyoung.com",
@@ -181,7 +250,17 @@ export const properties = [
         "highlights": [
             "Erindale CO Station behind the plaza", "CIBC Bank", "Tim Hortons", "Medical offices", "Residential and commercial clientele in its trading area", "Parking: 500 spots"
         ],
-        "contact": [
+        "availability": [
+            {
+                "unit": '003',
+                "area": 1334
+            },
+            {
+                "unit": '008B',
+                "area": 2143
+            }
+        ],
+        "xcontact": [
             {
                 "name": "Stan",
                 "main": "416 977 7781"

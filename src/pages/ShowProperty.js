@@ -54,6 +54,20 @@ export function ShowProperty() {
                 {property.images.description && < img src={property.images.description} alt="description" className="secondaryImage" />}
                 <div>{property.description}</div>
             </div>
+            {property.availability &&
+                <div className="infoSlice propertyAvailability">
+                    <div>Availability</div>
+                    <div className="availableUnits">
+                        {
+                            property.availability.map(a =>
+                                <div className="unitAvailable">
+                                    <div>{a.address && `${a.address} - `} Unit {a.unit}: {a.area.toLocaleString()} SF</div>
+                                </div>
+                            )
+                        }
+                    </div>
+                </div>
+            }
             {property.contact &&
                 <div className="infoSlice propertyContact">
                     <div>Contact</div>
@@ -68,7 +82,7 @@ export function ShowProperty() {
                     </div>
                 </div>
             }
-            {(property.contact || property.brochure) &&
+            {(property.brochure) &&
                 <div className="infoSlice propertyBrochure">
                     {property.brochure &&
                         <div onClick={() => onButtonClick(property.brochure)}>
