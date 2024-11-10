@@ -1,4 +1,3 @@
-import spadina197 from '../images/properties/197Spadina.jpg'
 import adelaide from '../images/properties/featuredProperties/345Adelaide.jpg'
 import adelaideMain from '../images/properties/345Adelaide/main.jpg'
 import adelaideHighlights from '../images/properties/345Adelaide/highlights.jpg'
@@ -11,12 +10,20 @@ import king from '../images/properties/featuredProperties/590King.jpg'
 import kingMain from '../images/properties/590King/main.jpg'
 import kingDescription from '../images/properties/590King/description.jpg'
 import kingHighlights from '../images/properties/590King/highlights.jpg'
+import spadina197 from '../images/properties/197Spadina/thumbnail.jpg'
+import spadina197Main from '../images/properties/197Spadina/main.jpg'
+import spadina197Description from '../images/properties/197Spadina/description.jpg'
+import spadina197Highlights from '../images/properties/197Spadina/highlights.jpg'
+import creditview from '../images/properties/4040Creditview/thumbnail.jpg'
+import creditviewMain from '../images/properties/4040Creditview/main.jpg'
+import creditviewDescription from '../images/properties/4040Creditview/description.jpg'
+import creditviewHighlights from '../images/properties/4040Creditview/highlights.jpg'
 
 export const properties = [
     {
         "id": "197_spadina",
         "address1": "197 Spadina Avenue",
-        "images": { "thumbnail": spadina197 },
+        "images": { "thumbnail": spadina197, "main": spadina197Main, "description": spadina197Description, "highlights": spadina197Highlights },
         "type": "office, retail",
         "city": "Toronto",
         "description": "The property at 197 Spadina originally housed the Empire Clothing Company, a men’s clothing manufacturer and wholesaler. Designed and built by noted architect Benjamin Brown in 1923, the property still retains its distinctive architectural character, while boasting newly renovated and functional interiors.",
@@ -29,7 +36,7 @@ export const properties = [
             "Newly renovated", "Brick and beam", "Parking available", "New elevators", "A/C exclusive to each unit", "New electical", "Updated washrooms", "Attractive, updated lobby", "Security cameras and card access"
         ],
         "address2": "Toronto, ON M5T 2C8",
-        "map": "https://maps.google.com/maps?q=197+Spadina+Avenue%2C+To&t=&z=17&ie=UTF8&iwloc=&output=embed"
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5773.78917485154!2d-79.39928262505401!3d43.6503614526163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34db53ab4ba5%3A0x36dbf4c782fb8324!2s197%20Spadina%20Ave.%2C%20Toronto%2C%20ON%20M5T%202C8%2C%20Canada!5e0!3m2!1sen!2sus!4v1731272143784!5m2!1sen!2sus"
     },
     {
         "id": "129_spadina",
@@ -177,7 +184,7 @@ export const properties = [
         ],
         "brochure": "345Adelaide.pdf",
         "address2": "Toronto, ON M5V 1R5",
-        "map": "https://maps.google.com/maps?q=345+adelaide+Street+W&t=&z=17&ie=UTF8&iwloc=&output=embed"
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5774.133803868934!2d-79.3935295!3d43.6467764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34da477ab155%3A0x7d174cc0e94e210!2s345%20Adelaide%20St%20W%2C%20Toronto%2C%20ON%20M5V%201R5%2C%20Canada!5e0!3m2!1sen!2sus!4v1731272030295!5m2!1sen!2sus"
     },
     {
         "id": "590_king_473_adelaide",
@@ -240,7 +247,7 @@ export const properties = [
         "id": "deer_run_shopping_center",
         "title": "Deer Run Shopping Center",
         "address1": "4040 Creditview Road",
-        "images": {},
+        "images": { "thumbnail": creditview, "main": creditviewMain, "description": creditviewDescription, "highlights": creditviewHighlights },
         "type": "retail",
         "city": "Mississauga",
         "description": "Anchored by Fresh Palace grocery, the shopping center hosts an established collection of leading brands, generating steady, consistent foot traffic. Conveniently situated, it attracts both residential and commercial clientele and provides close transit access.",

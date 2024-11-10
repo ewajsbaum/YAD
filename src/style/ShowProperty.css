@@ -83,6 +83,10 @@
     line-height: 45px;
 }
 
+.propertyHighlights>div {
+    width: 40%;
+}
+
 .propertyDescription {
     gap: 70px;
     line-height: 35px;
@@ -93,7 +97,7 @@
 }
 
 .propertyDescription>div {
-    max-width: 1000px;
+    width: 40%;
 }
 
 .secondaryImage {
