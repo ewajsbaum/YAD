@@ -34,9 +34,9 @@ export function ShowProperty() {
                 <div>Property Details</div>
                 <div className="propertyGla">
                     {property.detailsb && <div className="address">{property.address1}</div>}
-                    {property.details.totalGLA && <div><span>Total GLA:</span> {property.details.totalGLA} square feet</div>}
-                    {property.details.officeGLA && <div><span>Office GLA:</span> {property.details.officeGLA} square feet</div>}
-                    {property.details.retailGLA && <div><span>Retail GLA:</span> {property.details.retailGLA} square feet</div>}
+                    {property.details.totalGLA && <div><span>Total GLA:</span> {property.details.totalGLA.toLocaleString()} square feet</div>}
+                    {property.details.officeGLA && <div><span>Office GLA:</span> {property.details.officeGLA.toLocaleString()} square feet</div>}
+                    {property.details.retailGLA && <div><span>Retail GLA:</span> {property.details.retailGLA.toLocaleString()} square feet</div>}
                 </div>
                 {property.detailsb &&
                     <div className="propertyGla">
@@ -49,10 +49,6 @@ export function ShowProperty() {
             <div className="infoSlice propertyHighlights">
                 <div>{property.highlights.map(h => <div>&#x2713;  {h}</div>)}</div>
                 {property.images.highlights && < img src={property.images.highlights} alt="highlights" className="secondaryImage" />}
-            </div>
-            <div className="infoSlice propertyDescription">
-                {property.images.description && < img src={property.images.description} alt="description" className="secondaryImage" />}
-                <div>{property.description}</div>
             </div>
             {property.availability &&
                 <div className="infoSlice propertyAvailability">
@@ -91,6 +87,10 @@ export function ShowProperty() {
                     }
                 </div>
             }
+            <div className="infoSlice propertyDescription">
+                {property.images.description && < img src={property.images.description} alt="description" className="secondaryImage" />}
+                <div>{property.description}</div>
+            </div>
 
             <div className="infoSlice propertyLocation">
                 <div>{property.address1}<br />{property.address2}</div>

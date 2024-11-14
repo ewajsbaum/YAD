@@ -220,6 +220,11 @@ export const properties = [
             },
             {
                 "address": "590 King",
+                "unit": 400,
+                "area": 18000
+            },
+            {
+                "address": "473 Adelaide",
                 "unit": 401,
                 "area": 10290
             }
@@ -255,15 +260,11 @@ export const properties = [
             "retailGLA": 85000
         },
         "highlights": [
-            "Erindale CO Station behind the plaza", "CIBC Bank", "Tim Hortons", "Medical offices", "Residential and commercial clientele in its trading area", "Parking: 500 spots"
+            "Erindale GO Station behind the plaza", "CIBC Bank", "Tim Hortons", "Medical offices", "Residential and commercial clientele in its trading area", "Parking: 500 spots"
         ],
         "availability": [
             {
-                "unit": '003',
-                "area": 1334
-            },
-            {
-                "unit": '008B',
+                "unit": '008B - office space',
                 "area": 2143
             }
         ],
